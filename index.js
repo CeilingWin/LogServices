@@ -52,8 +52,8 @@ if (req.method === 'GET' && req.url === '/') {
   }
 });
 
-const PORT = 3000;
-const HOST = '127.0.0.1';
+const PORT = 10000;
+const HOST = '0.0.0.0';
 
 // Lắng nghe trên cổng và host được chỉ định
 server.listen(PORT, HOST, () => {
