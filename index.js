@@ -3,6 +3,8 @@ const fs = require('fs');
 
 // Tạo server
 const server = http.createServer((req, res) => {
+
+console.log("Request received");
   if (req.method === 'POST') {
     let body = '';
 
