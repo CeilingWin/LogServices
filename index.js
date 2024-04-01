@@ -5,7 +5,22 @@ const fs = require('fs');
 const server = http.createServer((req, res) => {
 
 console.log("Request received");
-  if (req.method === 'POST') {
+if (req.method === 'GET' && req.url === '/') {
+    // Đọc nội dung của tệp index.html
+    fs.readFile('intro.html', (err, data) => {
+      if (err) {
+        // Trường hợp có lỗi khi đọc tệp
+        console.error(err);
+        res.statusCode = 500;
+        res.end('Internal Server Error');
+      } else {
+        // Trường hợp không có lỗi, trả về nội dung HTML
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        res.end(data);
+      }
+    });
+  }
+  else if (req.method === 'POST') {
     let body = '';
 
     // Nhận dữ liệu từ yêu cầu POST
