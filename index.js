@@ -52,7 +52,7 @@ if (req.method === 'GET' && req.url === '/') {
   }
 });
 
-const PORT = 10000;
+const PORT = process.env.PORT || 3000;
 const HOST = '0.0.0.0';
 
 // Lắng nghe trên cổng và host được chỉ định
