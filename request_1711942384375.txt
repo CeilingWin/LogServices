@@ -1,0 +1,124 @@
+10:32:59 : LOG : fr.crashLytics init   com.zingplay.tongits   
+10:32:59 : LOG : __________getTrackerName : tongits_ph   
+10:32:59 : LOG : #ZPTracker:: LOADING- _start_ again in day !   
+10:32:59 : LOG : #ZPTracker:: LOADING- _begin_startgame again in day !   
+10:32:59 : LOG : #ZPTracker:: LOGIN- _start_ again in day !   
+10:32:59 : LOG : checkAutoDownloadResource Egg breaker   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Event/EggBreakerUI/   EggBreakerUI   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD EggBreakerUI ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_EggBreakerUI again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   2   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0}]   
+10:32:59 : LOG : checkAutoDownloadResource weekly challenge   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Event/WeeklyChallenge/   WeeklyChallenge   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD WeeklyChallenge ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_WeeklyChallenge again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   3   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0},{"nameFeature":"WeeklyChallenge","priority":0}]   
+10:32:59 : LOG : checkAutoDownloadResource Horoscope   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Modules/Horoscope/   Horoscope   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD Horoscope ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_Horoscope again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   4   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0},{"nameFeature":"WeeklyChallenge","priority":0},{"nameFeature":"Horoscope","priority":0}]   
+10:32:59 : LOG : checkAutoDownloadResource ShortLeague   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Event/ShortLeague/   ShortLeague   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD ShortLeague ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_ShortLeague again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   5   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0},{"nameFeature":"WeeklyChallenge","priority":0},{"nameFeature":"Horoscope","priority":0},{"nameFeature":"ShortLeague","priority":0}]   
+10:32:59 : LOG : LOAD JSON : LoginGUI.json   
+10:32:59 : LOG : ## Time Load LoginGUI.json : 103   
+10:32:59 : LOG : ## Time Init LoginGUI.json : 0   
+10:32:59 : Error : Request error!   
+10:32:59 : Error : requestJsonGet   false   onerror   
+10:32:59 : LOG : callback load info iap portal fail   
+10:32:59 : LOG : Login customizeGUI   {"width":1350,"height":720}   
+10:32:59 : LOG : #ZPTracker:: LOGIN- _begin_guilogin again in day !   
+10:32:59 : LOG : _______INITIAL____LAYER___GUI_____   
+10:32:59 : LOG : ____CREATE___NEW___POPUP__WITH___CACHE__CheatCenterScene   
+10:32:59 : LOG : LOAD JSON : CheatCenterScene.json   
+10:33:00 : LOG : ## Time Load CheatCenterScene.json : 292   
+10:33:00 : LOG : load qc local   NaN   null   
+10:33:00 : LOG : _____________DEVICE__ID : 38644949   
+10:33:00 : LOG : ## Time Init CheatCenterScene.json : 180   
+10:33:00 : LOG : No listener receive this event   OPEN_GUI   
+10:33:00 : LOG : stopBroadcast   
+10:33:00 : LOG : ____LOAD___LOBBY___ANIMS_____   
+10:33:00 : LOG : ____LOAD___GAME___ANIMS_____   
+10:33:00 : LOG : ____LOAD___GAME___ARMATURES_____   
+10:33:00 : LOG : ___LOAD__USER__DEFAULT null/null/null   
+10:33:00 : LOG : _____________DEVICE__ID : 18544471   
+10:33:00 : LOG : # JsonRequest https://mobile-service.zingplay.com/versionV2.php?game=tongits_gg&device=18544471&version=37&referer=   
+10:33:00 : LOG : #ZPTracker:: LOADING- checkServices again in day !   
+10:33:00 : LOG : ++UpdateVersion : 37   
+10:33:00 : LOG : #ZPTracker:: LOADING- _request_country again in day !   
+10:33:00 : LOG : __CountryCodeFromCache : [object Object]   
+10:33:00 : LOG : __________TIMEOUT___CHECK___VERSION_______________   
+10:33:00 : LOG : #ZPTracker:: LOADING- _end_ again in day !   
+10:33:00 : LOG : showLogin   
+10:33:00 : LOG : save user name   1   
+10:33:01 : LOG : #ZPTracker:: LOADING- _responce_country again in day !   
+10:33:01 : LOG : onResponseCountryCode   {"code":0,"data":{"country":{"iso_code":"vn","name":"Viet Nam","geoname_id":"1581130","city_name":"Hanoi"}}}   
+10:33:04 : Error : 10:32:59 : LOG : fr.crashLytics init   com.zingplay.tongits   
+10:32:59 : LOG : __________getTrackerName : tongits_ph   
+10:32:59 : LOG : #ZPTracker:: LOADING- _start_ again in day !   
+10:32:59 : LOG : #ZPTracker:: LOADING- _begin_startgame again in day !   
+10:32:59 : LOG : #ZPTracker:: LOGIN- _start_ again in day !   
+10:32:59 : LOG : checkAutoDownloadResource Egg breaker   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Event/EggBreakerUI/   EggBreakerUI   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD EggBreakerUI ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_EggBreakerUI again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   2   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0}]   
+10:32:59 : LOG : checkAutoDownloadResource weekly challenge   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Event/WeeklyChallenge/   WeeklyChallenge   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD WeeklyChallenge ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_WeeklyChallenge again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   3   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0},{"nameFeature":"WeeklyChallenge","priority":0}]   
+10:32:59 : LOG : checkAutoDownloadResource Horoscope   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Modules/Horoscope/   Horoscope   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD Horoscope ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_Horoscope again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   4   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0},{"nameFeature":"WeeklyChallenge","priority":0},{"nameFeature":"Horoscope","priority":0}]   
+10:32:59 : LOG : checkAutoDownloadResource ShortLeague   
+10:32:59 : LOG : AssetsManager ->registerDownloadInfo   res/Event/ShortLeague/   ShortLeague   
+10:32:59 : LOG : AssetsManager ->----------///////// START DOWNLOAD ShortLeague ////////////---------   
+10:32:59 : LOG : #ZPTracker:: DYNAMIC_DOWNLOAD- START_DOWNLOAD_ShortLeague again in day !   
+10:32:59 : LOG : AssetsManager ->check queue download   false   false   5   false   
+10:32:59 : LOG : _checkQueueDownload   [{"nameFeature":"Pet","priority":0},{"nameFeature":"EggBreakerUI","priority":0},{"nameFeature":"WeeklyChallenge","priority":0},{"nameFeature":"Horoscope","priority":0},{"nameFeature":"ShortLeague","priority":0}]   
+10:32:59 : LOG : LOAD JSON : LoginGUI.json   
+10:32:59 : LOG : ## Time Load LoginGUI.json : 103   
+10:32:59 : LOG : ## Time Init LoginGUI.json : 0   
+10:32:59 : Error : Request error!   
+10:32:59 : Error : requestJsonGet   false   onerror   
+10:32:59 : LOG : callback load info iap portal fail   
+10:32:59 : LOG : Login customizeGUI   {"width":1350,"height":720}   
+10:32:59 : LOG : #ZPTracker:: LOGIN- _begin_guilogin again in day !   
+10:32:59 : LOG : _______INITIAL____LAYER___GUI_____   
+10:32:59 : LOG : ____CREATE___NEW___POPUP__WITH___CACHE__CheatCenterScene   
+10:32:59 : LOG : LOAD JSON : CheatCenterScene.json   
+10:33:00 : LOG : ## Time Load CheatCenterScene.json : 292   
+10:33:00 : LOG : load qc local   NaN   null   
+10:33:00 : LOG : _____________DEVICE__ID : 38644949   
+10:33:00 : LOG : ## Time Init CheatCenterScene.json : 180   
+10:33:00 : LOG : No listener receive this event   OPEN_GUI   
+10:33:00 : LOG : stopBroadcast   
+10:33:00 : LOG : ____LOAD___LOBBY___ANIMS_____   
+10:33:00 : LOG : ____LOAD___GAME___ANIMS_____   
+10:33:00 : LOG : ____LOAD___GAME___ARMATURES_____   
+10:33:00 : LOG : ___LOAD__USER__DEFAULT null/null/null   
+10:33:00 : LOG : _____________DEVICE__ID : 18544471   
+10:33:00 : LOG : # JsonRequest https://mobile-service.zingplay.com/versionV2.php?game=tongits_gg&device=18544471&version=37&referer=   
+10:33:00 : LOG : #ZPTracker:: LOADING- checkServices again in day !   
+10:33:00 : LOG : ++UpdateVersion : 37   
+10:33:00 : LOG : #ZPTracker:: LOADING- _request_country again in day !   
+10:33:00 : LOG : __CountryCodeFromCache : [object Object]   
+10:33:00 : LOG : __________TIMEOUT___CHECK___VERSION_______________   
+10:33:00 : LOG : #ZPTracker:: LOADING- _end_ again in day !   
+10:33:00 : LOG : showLogin   
+10:33:00 : LOG : save user name   1   
+10:33:01 : LOG : #ZPTracker:: LOADING- _responce_country again in day !   
+10:33:01 : LOG : onResponseCountryCode   {"code":0,"data":{"country":{"iso_code":"vn","name":"Viet Nam","geoname_id":"1581130","city_name":"Hanoi"}}}      
